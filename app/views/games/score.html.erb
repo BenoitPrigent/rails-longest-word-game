@@ -1,0 +1,10 @@
+<h1>Results</h1>
+
+<div id="container_score">
+  <p id="answer_output"> <%= @output %> </p>
+
+  <p> Score : <%= session[:score] %> </p>
+
+  <%= link_to "Let's play again", "/new", id: "links" %>
+
+</div>
